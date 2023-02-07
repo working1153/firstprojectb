@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My moeny</title>
+</head>
+<body>
+  <h1>My moeny</h1>
+  <form class="new-item-form">
+    <div class="field">
+      <label>Type:</label>
+      <select id="type">
+        <option value="earn">Earn</option>
+        <option value="loss">Loss</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Date :</label>
+      <input type="date" id="date">
+    </div>   
+    <div class="field">
+      <label>Details:</label>
+      <input type="text" id="details">
+    </div>
+    <div class="field">
+      <label>Amount (£):</label>
+      <input type="number" id="amount">
+    </div>
+    <button>Add</button>
+  </form>
+  <div class="wrapper">
+
+    <table class="table table-compact w-full">
+      <thead>
+        <tr>
+          <th>Earn/Loss</th>
+          <th>Date</th>
+          <th>Details</th>
+          <th>Amount</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="new-list">
+        
+      </tbody>
+    </table>
+    <span>total: </span><span class="total-amount">0</span>
+  </div>
+
+
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>

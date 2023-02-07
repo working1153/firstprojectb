@@ -1,0 +1,2 @@
+const form = document.querySelector('form') as HTMLFormElement; (強制他變成HTMLFormElement)
+記帳功能
