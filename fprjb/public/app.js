@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
     let values;
     values = [date.value, details.value, amount.valueAsNumber];
     let doc;
-    if (type.value === 'earn') {
+    if (type.value === 'Earn') {
         doc = new Earn(...values);
     }
     else {

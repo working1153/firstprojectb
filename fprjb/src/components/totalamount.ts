@@ -6,7 +6,7 @@ export const totalamount = () => {
     const head = tr[i].querySelector('th') as HTMLTableCellElement;
     const tds = tr[i].querySelectorAll('td');
     const amount = parseInt(tds[2].innerText);
-    if(head.innerText === 'earn') {
+    if(head.innerText === 'Earn') {
       sumall += amount;
     } else {
       sumall -= amount;

@@ -30,7 +30,7 @@ form.addEventListener('submit', (e: Event) => {
 
   let doc: AllData;
 
-  if(type.value === 'earn') {
+  if(type.value === 'Earn') {
     doc = new Earn(...values);
   } else {
     doc = new Loss(...values);

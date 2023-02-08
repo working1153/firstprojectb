@@ -73,6 +73,13 @@ export const rerend = () => {
       border-top: 1px solid #dee2e6;
       border-bottom: 2px solid #dee2e6;
     `);
+        const t = th[i].innerText;
+        if (t === 'Earn') {
+            th[i].style.color = 'green';
+        }
+        else if (t === 'Loss') {
+            th[i].style.color = 'red';
+        }
     }
     for (let i = 0; i < td.length; i++) {
         td[i].setAttribute('style', `
