@@ -1,6 +1,0 @@
-1.新增總金額(O)
-2.把input form拉上來(O)
-3.css 用style.js控制(O)
-4.earn/loss Date details earning(O)
-5.可以刪除特定(O)
-6.建置
